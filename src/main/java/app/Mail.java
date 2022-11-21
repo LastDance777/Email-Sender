@@ -13,8 +13,8 @@ import java.util.Properties;
 
 public class Mail {
     public boolean SendEmail(String to, String subject, String msg_body) {
-        String from = "bbbvvvv441@gmail.com";
-        String password = "jpcveqazffqvrtzd";
+        String from = "enter your email here";
+        String password = "enter your app password here";
         boolean mail_status = false;
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
